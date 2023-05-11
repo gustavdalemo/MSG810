@@ -203,7 +203,6 @@ names_boys_1999 = [
 "Leon",
 "Per",
 "Julius",
-"Theo"
 ]
 names_boys_2000 = [
 "Filip",
@@ -4963,10 +4962,9 @@ def genPerson():
     else:
         return Person(names_girls_1998[index],g,1998)
 
-for i in range(1):
+for i in range(0):
     genPerson().info()
 
-print(len(names_boys_1999))
 
 def checkDuplicates(xs):
     if len(set(xs)) == len(xs):
@@ -4976,6 +4974,7 @@ def checkDuplicates(xs):
 
 xs = [1,1,2,3,4,5]
 
-for i in range(24):
-    currentList = boynames1998_2021[i]
-    print(f"Length of {currentList}:len(currentList))
+for i in range(len(boynames1998_2021)):
+    t = 1998+i
+    duplicates = checkDuplicates(boynames1998_2021[i])
+    print(t, len(boynames1998_2021[i]), duplicates)
