@@ -1,6 +1,5 @@
 import random
 
-gender = ["female","male"]
 names_boys_1998 = [
 "Filip",
 "Erik",
@@ -205,107 +204,106 @@ names_boys_1999 = [
 "Julius",
 ]
 names_boys_2000 = [
-"Filip",
-"Oscar",
-"William",
-"Viktor",
-"Simon",
-"Anton",
-"Erik",
-"Alexander",
-"Emil",
-"Lucas",
-"Jonathan",
-"Linus",
-"Adam",
-"Marcus",
-"Jacob",
-"Albin",
-"Gustav",
-"Isak",
-"Sebastian",
-"David",
-"Daniel",
-"Hugo",
-"Rasmus",
-"Carl",
-"Elias",
-"Samuel",
-"Hampus",
-"Kevin",
-"Oliver",
-"Axel",
-"Johan",
-"Jesper",
-"Ludvig",
-"Felix",
-"Max",
-"Robin",
-"Joel",
-"Mattias",
-"Martin",
-"Andreas",
-"Pontus",
-"Christoffer",
-"Fredrik",
-"Gabriel",
-"Edvin",
-"Tobias",
-"Casper",
-"Dennis",
-"Tim",
-"Johannes",
-"Joakim",
-"Arvid",
-"Benjamin",
-"Niklas",
-"Nils",
-"Noah",
-"Elliot",
-"Hannes",
-"Alex",
-"Fabian",
-"Olle",
-"Henrik",
-"Christian",
-"Leo",
-"John",
-"Mikael",
-"Jonas",
-"Mohamed",
-"Rickard",
-"Josef",
-"Adrian",
-"Liam",
-"Alfred",
-"André",
-"Theodor",
-"Melker",
-"Wilhelm",
-"Patrik",
-"Kalle",
-"Måns",
-"August",
-"Theo",
-"Kim",
-"Love",
-"Melvin",
-"Petter",
-"Robert",
-"Vincent",
-"Ahmed",
-"Douglas",
-"Ali",
-"Emanuel",
-"Herman",
-"Albert",
-"Eddie",
-"Leon",
-"Julius",
-"Aron",
-"Thomas",
-"Jack",
-"Tom"
+("Filip",25/1000),
+("Oscar",24/1000),
+("William",24/1000),
+("Viktor",23/1000),
+("Simon",23/1000),
+("Anton",23/1000),
+("Erik",23/1000),
+("Alexander",21/1000),
+("Emil",19/1000),
+("Lucas",19/1000),
+("Jonathan",19/1000),
+("Linus",17/1000),
+("Adam",17/1000),
+("Marcus",16/1000),
+("Jacob",16/1000),
+("Albin",15/1000),
+("Gustav",15/1000),
+("Isak",14/1000),
+("Sebastian",14/1000),
+("David",14/1000),
+("Daniel",13/1000),
+("Hugo",13/1000),
+("Rasmus",13/1000),
+("Carl",13/1000),
+("Elias",13/1000),
+("Samuel",12/1000),
+("Hampus",12/1000),
+("Kevin",12/1000),
+("Oliver",12/1000),
+("Axel",11/1000),
+("Johan",11/1000),
+("Jesper",10/1000),
+("Ludvig",10/1000),
+("Felix",10/1000),
+("Max",9/1000),
+("Robin",9/1000),
+("Joel",9/1000),
+("Mattias",8/1000),
+("Martin",8/1000),
+("Andreas",8/1000),
+("Pontus",8/1000),
+("Christoffer",8/1000),
+("Fredrik",7/1000),
+("Gabriel",7/1000),
+("Edvin",7/1000),
+("Tobias",7/1000),
+("Casper",6/1000),
+("Dennis",6/1000),
+("Tim",6/1000),
+("Johannes",6/1000),
+("Joakim",5/1000),
+("Arvid",5/1000),
+("Benjamin",5/1000),
+("Niklas",5/1000),
+("Nils",4/1000),
+("Noah",4/1000),
+("Elliot",4/1000),
+("Hannes",4/1000),
+("Alex",4/1000),
+("Fabian",4/1000),
+("Olle",4/1000),
+("Henrik",4/1000),
+("Christian",4/1000),
+("Leo",4/1000),
+("John",4/1000),
+("Mikael",4/1000),
+("Jonas",4/1000),
+("Mohamed",4/1000),
+("Rickard",4/1000),
+("Josef",4/1000),
+("Adrian",3/1000),
+("Liam",3/1000),
+("Alfred",3/1000),
+("André",3/1000),
+("Theodor",3/1000),
+("Melker",3/1000),
+("Wilhelm",3/1000),
+("Patrik",2/1000),
+("Kalle",2/1000),
+("Måns",2/1000),
+("August",2/1000),
+("Theo",2/1000),
+("Kim",2/1000),
+("Love",2/1000),
+("Melvin",2/1000),
+("Petter",2/1000),
+("Robert",2/1000),
+("Vincent",2/1000),
+("Ahmed",2/1000),
+("Douglas",2/1000),
+("Ali",2/1000),
+("Emanuel",2/1000),
+("Herman",2/1000),
+("Albert",2/1000),
+("Eddie",2/1000),
+("Leon",2/1000),
+("Julius",2/1000),
+("Aron",2/1000),
+("Thomas",2/1000),
+("Jack",2/1000)
 ]
 names_boys_2001 = [
 "Filip",
@@ -2658,106 +2656,106 @@ names_girls_1999 = [
 "Kristina"
 ]
 names_girls_2000 = [
-"Julia",
-"Emma",
-"Wilma",
-"Hanna",
-"Elin",
-"Linnéa",
-"Amanda",
-"Ida",
-"Matilda",
-"Moa",
-"Maja",
-"Sara",
-"Ebba",
-"Felicia",
-"Emilia",
-"Klara",
-"Josefine",
-"Johanna",
-"Emelie",
-"Linn",
-"Sofia",
-"Frida",
-"Anna",
-"Ellen",
-"Alice",
-"Alva",
-"Isabelle",
-"Olivia",
-"Rebecca",
-"Lisa",
-"Lovisa",
-"Nathalie",
-"Jennifer",
-"Tilda",
-"Kajsa",
-"Fanny",
-"Filippa",
-"Sandra",
-"Alexandra",
-"Saga",
-"Lina",
-"Tilde",
-"Evelina",
-"Agnes",
-"Ella",
-"Victoria",
-"Malin",
-"Elsa",
-"Nora",
-"Isabella",
-"Sanna",
-"Louise",
-"Alma",
-"Emmy",
-"Jenny",
-"Madeleine",
-"Cornelia",
-"Sofie",
-"Nellie",
-"Mikaela",
-"Alicia",
-"Maria",
-"Erika",
-"Tova",
-"Ronja",
-"My",
-"Jasmine",
-"Ellinor",
-"Elvira",
-"Jessica",
-"Stina",
-"Jonna",
-"Caroline",
-"Tove",
-"Nicole",
-"Thea",
-"Elina",
-"Cecilia",
-"Vendela",
-"Annie",
-"Astrid",
-"Gabriella",
-"Molly",
-"Andrea",
-"Carolina",
-"Selma",
-"Linda",
-"Michelle",
-"Tuva",
-"Karin",
-"Cassandra",
-"Therese",
-"Melissa",
-"Daniella",
-"Hilda",
-"Miranda",
-"Vanessa",
-"Angelica",
-"Beatrice",
-"Vera"
+("Julia",0.028),
+("Emma",0.027),
+("Wilma",0.026),
+("Hanna",0.023),
+("Elin",0.022),
+("Linnéa",0.022),
+("Amanda",0.020),
+("Ida",0.018),
+("Matilda",0.018),
+("Moa",0.017),
+("Maja",0.017),
+("Sara",0.017),
+("Ebba",0.015),
+("Felicia",0.015),
+("Emilia",0.014),
+("Klara",0.013),
+("Josefine",0.013),
+("Johanna",0.012),
+("Emelie",0.012),
+("Linn",0.011),
+("Sofia",0.011),
+("Frida",0.011),
+("Anna",0.011),
+("Ellen",0.01),
+("Alice",0.01),
+("Alva",0.01),
+("Isabelle",0.01),
+("Olivia",0.01),
+("Rebecca",0.01),
+("Lisa",0.009),
+("Lovisa",0.009),
+("Nathalie",0.009),
+("Jennifer",0.009),
+("Tilda",0.009),
+("Kajsa",0.008),
+("Fanny",0.007),
+("Filippa",0.007),
+("Sandra",0.007),
+("Alexandra",0.007),
+("Saga",0.007),
+("Lina",0.006),
+("Tilde",0.006),
+("Evelina",0.006),
+("Agnes",0.006),
+("Ella",0.006),
+("Victoria",0.006),
+("Malin",0.006),
+("Elsa",0.006),
+("Nora",0.006),
+("Isabella",0.005),
+("Sanna",0.005),
+("Louise",0.005),
+("Alma",0.005),
+("Emmy",0.005),
+("Jenny",0.005),
+("Madeleine",0.005),
+("Cornelia",0.005),
+("Sofie",0.004),
+("Nellie",0.004),
+("Mikaela",0.004),
+("Alicia",0.004),
+("Maria",0.004),
+("Erika",0.004),
+("Tova",0.004),
+("Ronja",0.004),
+("My",0.004),
+("Jasmine",0.004),
+("Ellinor",0.004),
+("Elvira",0.004),
+("Jessica",0.004),
+("Stina",0.004),
+("Jonna",0.003),
+("Caroline",0.003),
+("Tove",0.003),
+("Nicole",0.003),
+("Thea",0.003),
+("Elina",0.003),
+("Cecilia",0.003),
+("Vendela",0.003),
+("Annie",0.003),
+("Astrid",0.003),
+("Gabriella",0.003),
+("Molly",0.003),
+("Andrea",0.003),
+("Carolina",0.003),
+("Selma",0.003),
+("Linda",0.002),
+("Michelle",0.002),
+("Tuva",0.002),
+("Karin",0.002),
+("Cassandra",0.002),
+("Therese",0.002),
+("Melissa",0.002),
+("Daniella",0.002),
+("Hilda",0.002),
+("Miranda",0.002),
+("Vanessa",0.002),
+("Angelica",0.002),
+("Beatrice",0.002),
+("Vera",0.002)
 ]
 names_girls_2001 = [
 "Julia",
@@ -4910,71 +4908,71 @@ names_girls_2021 = [
 "Idun"
 ]
 
-boynames1998_2021 = [
-names_boys_1998,
-names_boys_1999,
-names_boys_2000,
-names_boys_2001,
-names_boys_2002,
-names_boys_2003,
-names_boys_2004,
-names_boys_2005,
-names_boys_2006,
-names_boys_2007,
-names_boys_2008,
-names_boys_2009,
-names_boys_2010,
-names_boys_2011,
-names_boys_2012,
-names_boys_2013,
-names_boys_2014,
-names_boys_2015,
-names_boys_2016,
-names_boys_2017,
-names_boys_2018,
-names_boys_2019,
-names_boys_2020,
-names_boys_2021
-]
+
+gender_type = ["female","male"]
 
 def genNum():
-    return random.randint
+    return random.randint()
 
 class Person:
-    def __init__(self, name, gender, birthYear):
+    def __init__(self, name, gender):
         self.name = name
         self.gender = gender
-        self.birthYear = birthYear
-    
+
     def introduce(self):
-        print(f"Hello, my name is {self.name}. I'm a {self.gender} and I was born in {self.birthYear}")
+        print(f"Hello, my name is {self.name}. I'm a {self.gender}")
 
     def info(self):
-        print(f"{self.name}_{self.gender}_{self.birthYear}")
-person1 = Person("Alice","Girl",1998)
+        print(f"{self.name}_{self.gender}")
+    
+    def __str__(self):
+        return f"{self.name}, {self.gender})"
+
+
 
 def genPerson():
-    birthYear = random.randint(1998,2021)
-    index = random.randint(0,100)
-    g = gender[random.randint(0,1)]
-    if g=="Male":
-        return Person(names_boys_1998[index],g,1998)
+    g = gender_type[random.randint(0,1)]
+    if g=="male":
+        return generateFromList(names_boys_2000,g)
     else:
-        return Person(names_girls_1998[index],g,1998)
+        return generateFromList(names_girls_2000,g)
 
-for i in range(0):
-    genPerson().info()
+def generateFromList(xs,g):
+    values, probabilities = zip(*xs)
+    random_value = random.choices(values,probabilities)[0]
+    return Person(random_value,g)
+
+def generateNPeople(n):
+    people = []
+    for i in range(n):
+        p = genPerson()
+        people.append(p)
+    return people
+
+def calculateDistribution(n):
+    people = generateNPeople(n)
+    boyNames = list(zip(*names_boys_2000))[0]
+    girlNames = list(zip(*names_girls_2000))[0]
+    distributionMales = list(zip(boyNames,100*[0]))
+    distributionFemales = list(zip(girlNames,100*[0]))
+    for i in range(len(people)):
+        person = people[i]
+        #print(person)
+        if person.gender == "male":
+            updateDist(person.name, distributionMales)
+        else:
+            updateDist(person.name, distributionFemales)
+    return (distributionMales,distributionFemales)
+
+def updateDist(name1, distList):
+    for i in range(len(distList)):
+        name2, dist = distList[i]
+        if name1 == name2:
+            distList[i] = (name2, dist+1)
 
 
-def checkDuplicates(xs):
-    if len(set(xs)) == len(xs):
-        return "No duplicates!"
-    else:
-        return "Duplicates!"
+males, females = calculateDistribution(90441)
+print("Males:\n", list(zip(*males))[1])
+print("Females:\n", list(zip(*females))[1])
 
-xs = [1,1,2,3,4,5]
 
-for i in range(len(boynames1998_2021)):
-    t = 1998+i
-    duplicates = checkDuplicates(boynames1998_2021[i])
-    print(t, len(boynames1998_2021[i]), duplicates)
