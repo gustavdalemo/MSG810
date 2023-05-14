@@ -288,7 +288,7 @@ def calcSampleDist(sampleMales, sampleFemales):
 distMales, males, distFemales, females = calcDistribution()
 print("Total number of people generated: ", (len(males) + len(females)))
 print("Number of males generated: ", len(males))
-# print("Males:\n", list(zip(*distMales))[1])
+#print("Males:\n", list(zip(*distMales))[1])
 print("Males:\n", list(distMales))
 print("Number of females generated: ", len(females))
 #print("Females:\n", list(zip(*distFemales))[1])
