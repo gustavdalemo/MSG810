@@ -1,5 +1,7 @@
 import random
 
+import matplotlib.pyplot as plt
+
 
 names_males_2000 = [
 ("Filip",25/1000),
@@ -227,14 +229,6 @@ class Person:
         return f"{self.name}, {self.gender})"
 
 
-
-""" def genPerson():
-    g = gender_type[random.randint(0,1)]
-    if g=="male":
-        return genFromList(names_boys_2000,g)
-    else:
-        return genFromList(names_girls_2000,g) """
-
 def genMale():
     return genFromList(names_males_2000,"male")
 
@@ -306,3 +300,15 @@ print("Number of males sampled: ", len(sampleMales))
 print("SampleMales:\n", list(zip(*distSampleMales))[1])
 print("Number of females sampled: ", len(sampleFemales))
 print("SampleFemales:\n", list(zip(*distSampleFemales))[1])
+
+
+labels = [x[0] for x in names_males_2000]
+values = list(zip(*distSampleMales))[1]
+
+plt.bar(labels, values)
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.title('Bar Chart Example')
+plt.xticks(rotation=-85)
+
+plt.show()
