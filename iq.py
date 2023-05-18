@@ -1,3 +1,4 @@
+import csv
 import random
 import numpy as np
 import matplotlib.pyplot as plt
@@ -48,6 +49,16 @@ def create_bar_chart():
 (median, sample_population) = sampleMedianIQ(1000, iq_population)
 print(sample_population)
 print("Median: ", median)
+
+
+# Saving data into file
+fields = ['IQ']
+
+with open('data.csv', 'w') as f:
+    write = csv.writer(f)
+    write.writerow(fields)
+    write.writerow(sample_population)
+
 
 #create_bar_chart()
 create_hist_diagram(sample_population)
