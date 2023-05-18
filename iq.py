@@ -7,21 +7,23 @@ mean = 100
 std_dev = 15
 
 # Generera slumpmässiga IQ-värden för en population
-size = 1000000
-population_size = size  # Antal personer i populationen
+population_size = 10000000  # Antal personer i populationen
 iq_population = np.random.normal(mean, std_dev, population_size)
 
-# Skriv ut de första n värdena i populationen
-n = 1000000
-print(iq_population[:n])
-for i in range(len(iq_population)):
-    if i < n:
-        print(i,iq_population[i])
+
+def sampleMedianIQ(sampleSize, population):
+    sample_population = population[:sampleSize]
+    median = 0
+    for element in sample_population:
+        median += element
+    median = median/sampleSize
+    return (median, sample_population)
 
 
-def create_hist_diagram():
-    n = len(iq_population)
-    plt.hist(iq_population, bins=n)
+
+def create_hist_diagram(population):
+    n = len(population)
+    plt.hist(population, bins=n)
     plt.xlabel('IQ')
     plt.ylabel('Frequency')
     plt.title('IQ Distribution Histogram')
@@ -43,6 +45,9 @@ def create_bar_chart():
 
     plt.show()
 
+(median, sample_population) = sampleMedianIQ(1000, iq_population)
+print(sample_population)
+print("Median: ", median)
 
 #create_bar_chart()
-create_hist_diagram()
+create_hist_diagram(sample_population)
